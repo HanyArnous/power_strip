@@ -397,9 +397,3 @@ some frames with NUL bytes and the port is fixed at 10086.
 | App crashes at launch | update to the latest APK (older builds had an outlet-index crash) |
 | UI unreachable but 10086 works | the web port is not open, or you are on a network that cannot reach the VPS |
 | Nothing responds at all | `python power-strip.py selftest` proves the server logic without any hardware |
-
-## What this does not do (on purpose)
-
-MQTT/Home Assistant entities, Matter, firmware OTA, multi-user
-accounts. Add them when you actually want them.
-
