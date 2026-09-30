@@ -304,6 +304,7 @@ Install on the phone:
 
 * easiest — with the server running, open `http://<server>:<web-port>/power-strip.apk`
   on the phone (the server serves the built APK; that URL needs no token), or
+* download `power-strip.apk` from this repo and install it, or
 * `adb install android/app/build/outputs/apk/debug/app-debug.apk`
 
 What you get: an animated splash, a live power ring (watts + energy/voltage/current/RSSI

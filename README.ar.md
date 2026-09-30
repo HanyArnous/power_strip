@@ -299,6 +299,7 @@ gradlew assembleDebug            # أو افتح المجلد في Android Studi
 
 * الأسهل — والخادم يعمل، افتح `http://<الخادم>:<منفذ-الويب>/power-strip.apk` على الهاتف
   (الخادم يقدّم ملف APK المبني، وهذا العنوان لا يحتاج رمزًا)، أو
+* نزّل ملف `power-strip.apk` من هذا المستودع وثبّته، أو
 * `adb install android/app/build/outputs/apk/debug/app-debug.apk`
 
 ما ستحصل عليه: شاشة بداية متحركة، حلقة قدرة حيّة (واط + كبسولات الطاقة/الجهد/التيار/

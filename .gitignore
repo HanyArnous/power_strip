@@ -26,6 +26,7 @@ android/.idea/
 android/*.iml
 android/captures/
 *.apk
+!power-strip.apk
 *.aab
 *.keystore
 *.jks
