@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">power-strip</string>
+
+    <string name="tab_plugs">Plugs</string>
+    <string name="tab_link">Link</string>
+    <string name="tab_reports">Reports</string>
+    <string name="tab_scenes">Scenes</string>
+    <string name="tab_settings">Settings</string>
+    <string name="splash_tagline">Local power control</string>
+
+    <string name="strip_name">LG+ Power</string>
+    <string name="strip_fw">fw %1$s</string>
+
+    <string name="header_no_server">no server set</string>
+    <string name="header_online">%1$d online · %2$s</string>
+    <string name="header_known_offline">%1$d known · offline</string>
+    <string name="header_waiting">waiting for the strip · %1$s</string>
+    <string name="refresh">Refresh</string>
+    <string name="connecting">Connecting to %1$s…</string>
+
+    <string name="no_server_title">No server set</string>
+    <string name="no_server_body">Point power-strip at the machine running power-strip.py — your PC, a Raspberry Pi or a VPS.</string>
+    <string name="no_strip_title">No strip connected</string>
+    <string name="no_strip_body">The strip dials the server itself. Check that it is powered, on a 2.4 GHz Wi-Fi network and provisioned with the server\'s IP.</string>
+    <string name="open_settings">Open settings</string>
+
+    <string name="turn_all_on">Turn all on</string>
+    <string name="turn_all_off">Turn all off</string>
+    <string name="outlet_n">Outlet %1$d</string>
+    <string name="state_on">ON</string>
+    <string name="state_off">OFF</string>
+    <string name="tile_on_detail">%1$s W · %2$d°C</string>
+    <string name="tile_off_detail">%1$d°C idle</string>
+    <string name="watts_now">now</string>
+    <string name="unit_watts">W</string>
+    <string name="switch_outlet">Toggle outlet %1$d</string>
+
+    <string name="settings_title">Settings</string>
+    <string name="server_title">Server</string>
+    <string name="server_body">Where power-strip.py runs: your PC, a Raspberry Pi or a VPS. Add the token if the server is reachable from the internet.</string>
+    <string name="field_host">Server IP or host</string>
+    <string name="field_port">Port</string>
+    <string name="field_token">Token</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="fav_title">Favorites</string>
+    <string name="fav_empty">No favorites yet — tap Edit to pin outlets.</string>
+    <string name="fav_edit">Edit</string>
+    <string name="fav_done">Done</string>
+    <string name="fav_add">Add outlets</string>
+    <string name="field_name">Name</string>
+    <string name="name_edit_strip">Rename strip</string>
+    <string name="name_edit_outlet">Rename outlet %1$d</string>
+    <string name="test">Test</string>
+    <string name="saved">Saved</string>
+    <string name="connected_summary">Connected · %1$d strip(s), %2$d online</string>
+    <string name="open_web_ui">Open web UI in browser</string>
+
+    <string name="language_title">Language</string>
+    <string name="lang_system">System</string>
+    <string name="lang_english">English</string>
+    <string name="lang_arabic">العربية</string>
+    <string name="command_failed">Command failed</string>
+
+    <string name="setup_title">First-time setup</string>
+    <string name="setup_step_1">Run power-strip.py on the machine that stays on, and note the IP it prints.</string>
+    <string name="setup_step_2">Enter that IP, port and token here, then press Test.</string>
+    <string name="setup_step_3">Point the strip at that machine once:</string>
+    <string name="setup_step_4">Done — the strip connects on its own. No router DNS or port forwarding.</string>
+    <string name="setup_footer">The Android app talks to the same JSON API as the web UI.</string>
+
+    <string name="link_title">Link a new strip</string>
+    <string name="link_body">The phone talks to the strip directly on its setup network — no PC needed. Join TONLY_TAP_* first, then link.</string>
+    <string name="link_step_1">Hold the strip button ~10s until the LED blinks fast.</string>
+    <string name="link_step_2">On this phone, join the TONLY_TAP_* Wi-Fi (password LGU_XXXXXXX).</string>
+    <string name="link_step_3">Enter the server IP and home Wi-Fi below, then press Link.</string>
+    <string name="link_step_4">Rejoin your home Wi-Fi — the strip comes online by itself.</string>
+    <string name="field_server_ip">Server IP (written into the strip)</string>
+    <string name="field_ssid">Home Wi-Fi name (SSID)</string>
+    <string name="field_wifi_pw">Home Wi-Fi password</string>
+    <string name="field_setup_host">Setup host</string>
+    <string name="link_test">Test setup</string>
+    <string name="link_go">Link strip</string>
+    <string name="link_back">Show plugs</string>
+    <string name="link_ok">Linked — rejoin your home Wi-Fi now.</string>
+    <string name="link_saved">Server IP saved to Settings — the Plugs tab is ready.</string>
+    <string name="link_got_ip">Server address saved inside the strip.</string>
+    <string name="link_got_wifi">Home Wi-Fi saved inside the strip.</string>
+    <string name="link_watch">Watch TONLY_TAP_* disappear within a minute — that means the strip accepted the Wi-Fi and rebooted. If it stays visible, the name/password was wrong or not 2.4 GHz.</string>
+    <string name="link_verify_title">How to confirm it worked</string>
+    <string name="link_verify_1">Rejoin your home Wi-Fi on this phone.</string>
+    <string name="link_verify_2">Open Plugs — the strip shows online within seconds.</string>
+    <string name="link_verify_3">On the server you will see: [device] MTTL …</string>
+    <string name="link_reachable">Setup service reachable — ready to link.</string>
+    <string name="link_unreachable_hint">Not reachable — join TONLY_TAP_* on this phone first.</string>
+    <string name="link_err_ssid">Wi-Fi name (SSID) is required.</string>
+    <string name="link_err_ip">Server IP must be an IPv4 address.</string>
+    <string name="link_err_chars">SSID/password cannot contain a colon or newlines.</string>
+    <string name="link_err_no_wifi">No Wi-Fi connection — join TONLY_TAP_* on this phone first (mobile data cannot reach the strip).</string>
+    <string name="link_err_unreachable">Setup service not reachable — is the strip blinking, and is this phone on TONLY_TAP_*?</string>
+    <string name="link_err_answer">Unexpected answer from the strip — try again.</string>
+
+    <string name="reports_title">Energy reports</string>
+    <string name="per_day">Day</string>
+    <string name="per_week">Week</string>
+    <string name="per_month">Month</string>
+    <string name="rep_total">Total energy</string>
+    <string name="rep_peak">Peak power</string>
+    <string name="rep_lowest">Lowest power</string>
+    <string name="rep_avg">Average</string>
+    <string name="rep_by_outlet">Energy by outlet</string>
+    <string name="rep_power_curve">Power curve</string>
+    <string name="rep_curve_hint">Outlet %1$d over the selected period.</string>
+    <string name="rep_no_data">No data yet — samples are stored every minute.</string>
+
+    <string name="scenes_title">Scenes</string>
+    <string name="scene_new">New scene</string>
+    <string name="scene_edit">Edit scene</string>
+    <string name="scene_name">Scene name</string>
+    <string name="scene_actions">Actions</string>
+    <string name="scene_action_add">Add action</string>
+    <string name="scene_all">All</string>
+    <string name="scene_on">ON</string>
+    <string name="scene_off">OFF</string>
+    <string name="scene_run">Run</string>
+    <string name="scene_fired">Fired</string>
+    <string name="scene_empty">No scenes yet — automate protection or schedules.</string>
+    <string name="trig_threshold">Power</string>
+    <string name="trig_schedule">Time</string>
+    <string name="trig_manual">Manual</string>
+    <string name="scene_above">above</string>
+    <string name="scene_below">below</string>
+    <string name="scene_watts">Watts</string>
+    <string name="scene_for_s">Seconds held</string>
+    <string name="scene_time">Time HH:MM</string>
+    <string name="day_0">Mon</string>
+    <string name="day_1">Tue</string>
+    <string name="day_2">Wed</string>
+    <string name="day_3">Thu</string>
+    <string name="day_4">Fri</string>
+    <string name="day_5">Sat</string>
+    <string name="day_6">Sun</string>
+</resources>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">power-strip</string>
+
+    <string name="tab_plugs">الفيش</string>
+    <string name="tab_link">ربط</string>
+    <string name="tab_reports">التقارير</string>
+    <string name="tab_scenes">السيناريوهات</string>
+    <string name="tab_settings">الإعدادات</string>
+    <string name="splash_tagline">تحكم في الكهربا من عندك</string>
+
+    <string name="strip_name">المشترك الكوري</string>
+    <string name="strip_fw">الإصدار %1$s</string>
+
+    <string name="header_no_server">مفيش سيرفر متحدد</string>
+    <string name="header_online">‏%1$d متصل · %2$s</string>
+    <string name="header_known_offline">‏%1$d معروف · مش متصل</string>
+    <string name="header_waiting">مستني المشترك · %1$s</string>
+    <string name="refresh">تحديث</string>
+    <string name="connecting">جاري الاتصال بـ %1$s…</string>
+
+    <string name="no_server_title">مفيش سيرفر متحدد</string>
+    <string name="no_server_body">وجّه power-strip للجهاز اللي شغّال عليه power-strip.py — كمبيوتر، Raspberry Pi أو سيرفر VPS.</string>
+    <string name="no_strip_title">مفيش مشترك متصل</string>
+    <string name="no_strip_body">المشترك بيتصل بالسيرفر لوحده. اتأكد إنه متوصل بالكهربا، وعلى واي فاي 2.4 جيجاهرتز، ومتظبط على عنوان IP بتاع السيرفر.</string>
+    <string name="open_settings">افتح الإعدادات</string>
+
+    <string name="turn_all_on">شغّلهم كلهم</string>
+    <string name="turn_all_off">اطفيهم كلهم</string>
+    <string name="outlet_n">الفيشة %1$d</string>
+    <string name="state_on">شغالة</string>
+    <string name="state_off">مقفولة</string>
+    <string name="tile_on_detail">%1$s وات · %2$d°</string>
+    <string name="tile_off_detail">%1$d° · مش واصلالها كهربا</string>
+    <string name="watts_now">دلوقتي</string>
+    <string name="unit_watts">وات</string>
+    <string name="switch_outlet">بدّل الفيشة %1$d</string>
+
+    <string name="settings_title">الإعدادات</string>
+    <string name="server_title">السيرفر</string>
+    <string name="server_body">المكان اللي شغّال عليه power-strip.py: كمبيوتر، Raspberry Pi أو سيرفر VPS. ضيف الـ Token لو السيرفر متاح من على الإنترنت.</string>
+    <string name="field_host">عنوان IP أو اسم السيرفر</string>
+    <string name="field_port">المنفذ</string>
+    <string name="field_token">الـ Token</string>
+    <string name="save">حفظ</string>
+    <string name="cancel">إلغاء</string>
+    <string name="fav_title">المفضلة</string>
+    <string name="fav_empty">لا مفضلة بعد — دوس تعديل لتثبيت فيش.</string>
+    <string name="fav_edit">تعديل</string>
+    <string name="fav_done">تم</string>
+    <string name="fav_add">إضافة فيش</string>
+    <string name="field_name">الاسم</string>
+    <string name="name_edit_strip">إعادة تسمية المشترك</string>
+    <string name="name_edit_outlet">إعادة تسمية الفيشة %1$d</string>
+    <string name="test">اختبار</string>
+    <string name="saved">اتحفظ</string>
+    <string name="connected_summary">متصل · %1$d مشترك، %2$d متصل</string>
+    <string name="open_web_ui">افتح الواجهة في المتصفح</string>
+
+    <string name="language_title">اللغة</string>
+    <string name="lang_system">تلقائي</string>
+    <string name="lang_english">English</string>
+    <string name="lang_arabic">العربية</string>
+    <string name="command_failed">الأمر فشل</string>
+
+    <string name="setup_title">الإعداد لأول مرة</string>
+    <string name="setup_step_1">شغّل power-strip.py على الجهاز اللي هيفضل شغّال، وسجّل عنوان الـ IP اللي هيظهرلك.</string>
+    <string name="setup_step_2">اكتب العنوان والمنفذ والـ Token هنا، وبعد كده دوس اختبار.</string>
+    <string name="setup_step_3">وجّه المشترك للجهاز ده مرة واحدة:</string>
+    <string name="setup_step_4">كده خلصنا — المشترك هيتصل لوحده. مش محتاج تغيّر DNS الراوتر ولا تفتح أي منافذ.</string>
+    <string name="setup_footer">تطبيق الأندرويد بيستخدم نفس واجهة JSON اللي بتستخدمها واجهة الويب.</string>
+
+    <string name="link_title">ربط مشترك جديد</string>
+    <string name="link_body">الهاتف بيكلم المشترك مباشرة على شبكة الإعداد — مش محتاج كمبيوتر. اتصل بشبكة TONLY_TAP_* الأول وبعدين اربط.</string>
+    <string name="link_step_1">دوس على زرار المشترك 10 ثواني لحد ما اللمبة تنور وتطفي بسرعة.</string>
+    <string name="link_step_2">من الهاتف ده، اتصل بشبكة TONLY_TAP_* (كلمة المرور LGU_XXXXXXX).</string>
+    <string name="link_step_3">اكتب عنوان السيرفر وبيانات واي فاي البيت تحت، وبعدين دوس ربط.</string>
+    <string name="link_step_4">ارجع لواي فاي البيت — المشترك هيتصل لوحده.</string>
+    <string name="field_server_ip">عنوان السيرفر (هيتكتب في المشترك)</string>
+    <string name="field_ssid">اسم واي فاي البيت</string>
+    <string name="field_wifi_pw">كلمة مرور الواي فاي</string>
+    <string name="field_setup_host">عنوان الإعداد</string>
+    <string name="link_test">اختبار الاتصال</string>
+    <string name="link_go">ربط المشترك</string>
+    <string name="link_back">عرض الفيش</string>
+    <string name="link_ok">اتربط — ارجع لواي فاي البيت دلوقتي.</string>
+    <string name="link_saved">عنوان السيرفر اتحفظ في الإعدادات — تبويب الفيش جاهز.</string>
+    <string name="link_got_ip">عنوان السيرفر اتحفظ جوه المشترك.</string>
+    <string name="link_got_wifi">واي فاي البيت اتحفظ جوه المشترك.</string>
+    <string name="link_watch">راقب اختفاء شبكة TONLY_TAP_* خلال دقيقة — ده معناه أن المشترك قبل الواي فاي وبيعيد التشغيل. لو فضلت ظاهرة، الاسم/كلمة غلط أو مش 2.4 جيجا.</string>
+    <string name="link_verify_title">اتأكد إزاي إنه اتربط صح؟</string>
+    <string name="link_verify_1">ارجع لواي فاي البيت من الهاتف.</string>
+    <string name="link_verify_2">افتح الفيش — المشترك هيظهر متصل خلال ثواني.</string>
+    <string name="link_verify_3">على الخادم هتشوف سطر: [device] MTTL …</string>
+    <string name="link_reachable">خدمة الإعداد متاحة — جاهز للربط.</string>
+    <string name="link_unreachable_hint">مش متاحة — اتصل بشبكة TONLY_TAP_* من الهاتف الأول.</string>
+    <string name="link_err_ssid">اسم الشبكة مطلوب.</string>
+    <string name="link_err_ip">عنوان السيرفر لازم يكون IPv4.</string>
+    <string name="link_err_chars">ممنوع النقطتين أو سطور جديدة في الاسم أو الكلمة.</string>
+    <string name="link_err_no_wifi">مفيش واي فاي متصل — اتصل بشبكة TONLY_TAP_* من الهاتف الأول (بيانات الهاتف لا تصل للمشترك).</string>
+    <string name="link_err_unreachable">خدمة الإعداد مش متاحة — المشترك بينور بسرعة؟ والهاتف على شبكة TONLY_TAP_*؟</string>
+    <string name="link_err_answer">رد غريب من المشترك — حاول تاني.</string>
+
+    <string name="reports_title">تقارير الطاقة</string>
+    <string name="per_day">يوم</string>
+    <string name="per_week">أسبوع</string>
+    <string name="per_month">شهر</string>
+    <string name="rep_total">إجمالي الطاقة</string>
+    <string name="rep_peak">ذروة القدرة</string>
+    <string name="rep_lowest">أقل قدرة</string>
+    <string name="rep_avg">المتوسط</string>
+    <string name="rep_by_outlet">الطاقة حسب الفيشة</string>
+    <string name="rep_power_curve">منحنى القدرة</string>
+    <string name="rep_curve_hint">الفيشة %1$d خلال الفترة المختارة.</string>
+    <string name="rep_no_data">لا بيانات بعد — تُحفظ عينة كل دقيقة.</string>
+
+    <string name="scenes_title">السيناريوهات</string>
+    <string name="scene_new">سيناريو جديد</string>
+    <string name="scene_edit">تعديل السيناريو</string>
+    <string name="scene_name">اسم السيناريو</string>
+    <string name="scene_actions">الإجراءات</string>
+    <string name="scene_action_add">إضافة إجراء</string>
+    <string name="scene_all">الكل</string>
+    <string name="scene_on">تشغيل</string>
+    <string name="scene_off">إيقاف</string>
+    <string name="scene_run">تشغيل</string>
+    <string name="scene_fired">تم التنفيذ</string>
+    <string name="scene_empty">لا سيناريوهات بعد — أتمت الحماية أو المواعيد.</string>
+    <string name="trig_threshold">القدرة</string>
+    <string name="trig_schedule">الوقت</string>
+    <string name="trig_manual">يدوي</string>
+    <string name="scene_above">فوق</string>
+    <string name="scene_below">تحت</string>
+    <string name="scene_watts">الواط</string>
+    <string name="scene_for_s">ثواني الاستمرار</string>
+    <string name="scene_time">الوقت HH:MM</string>
+    <string name="day_0">إثنين</string>
+    <string name="day_1">ثلاثاء</string>
+    <string name="day_2">أربعاء</string>
+    <string name="day_3">خميس</string>
+    <string name="day_4">جمعة</string>
+    <string name="day_5">سبت</string>
+    <string name="day_6">أحد</string>
+</resources>
