@@ -16,9 +16,13 @@ phone, from a PC, from anywhere if you run the server on a VPS.
 
 ## Screenshots
 
-| Web UI (desktop) | Web UI (mobile) |
+| Web UI (desktop) | Android app: Plugs + Favorites |
 |---|---|
-| ![web UI on desktop](docs/shots/web-desktop.png) | ![web UI on mobile](docs/shots/web-mobile.png) |
+| ![web UI on desktop](docs/shots/web-desktop.png) | ![app plugs and favorites](docs/shots/3.jpeg) |
+
+| Android app: Reports | Android app: Link + Rename |
+|---|---|
+| ![app energy reports](docs/shots/1.jpeg) | ![app link tab](docs/shots/4.jpeg) |
 
 ---
 
