@@ -410,13 +410,4 @@ I turn ideas into working apps, websites and systems — phones, browsers, serve
 and beyond. Careful engineering, honest scope, fair prices, results that actually
 work. If this project was useful to you, yours can be next.
 
-| | |
-|---|---|
-| **WhatsApp** | [wa.me/201093480689](https://wa.me/201093480689) — fastest reply |
-| **Call** | [+20 109 348 0689](tel:+201093480689) |
-| **Email** | [1ahmed.tohamy@gmail.com](mailto:1ahmed.tohamy@gmail.com) |
-
-Tell me what you want to build; you get a clear plan and a price before anything
-starts.
-
 
