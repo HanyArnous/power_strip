@@ -28,6 +28,7 @@ phone, from a PC, from anywhere if you run the server on a VPS.
 
 ## Contents
 
+- [Changelog](CHANGELOG.md)
 - [How it works](#how-it-works)
 - [What's in here](#whats-in-here)
 - [Requirements](#requirements)
@@ -39,7 +40,6 @@ phone, from a PC, from anywhere if you run the server on a VPS.
 - [Protocol reference](#protocol-reference)
 - [Troubleshooting](#troubleshooting)
 - [What this does not do (on purpose)](#what-this-does-not-do-on-purpose)
-- [Need something built?](#need-something-built)
 
 ## How it works
 
@@ -399,15 +399,6 @@ some frames with NUL bytes and the port is fixed at 10086.
 
 ## What this does not do (on purpose)
 
-MQTT/Home Assistant entities, Matter, energy history, firmware OTA, multi-user
+MQTT/Home Assistant entities, Matter, firmware OTA, multi-user
 accounts. Add them when you actually want them.
-
----
-
-## Need something built?
-
-I turn ideas into working apps, websites and systems — phones, browsers, servers,
-and beyond. Careful engineering, honest scope, fair prices, results that actually
-work. If this project was useful to you, yours can be next.
-
 
